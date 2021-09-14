@@ -3,12 +3,27 @@ import Vuetify from "vuetify/lib/framework";
 
 Vue.use(Vuetify);
 
-export default new Vuetify({theme: {
-    themes: {
-      light: {
-        // primary: '#3f51b5',
-        // secondary: '#b0bec5',
-        // anchor: '#8c9eff',
-      },
+export default new Vuetify({
+    theme: {
+        themes: {
+            light: {
+                primary: "#BE8E4D",
+                secondary: "#333333",
+                accent: "#82B1FF",
+                error: "#FF5252",
+                info: "#2196F3",
+                success: "#4CAF50",
+                warning: "#FB8C00",
+            },
+            dark: {
+                primary: "#BE8E4D",
+                secondary: "#333333",
+                accent: "#FF4081",
+                error: "#FF5252",
+                info: "#2196F3",
+                success: "#4CAF50",
+                warning: "#FB8C00",
+            },
+        },
     },
-  },});
+});
