@@ -87,7 +87,7 @@
       Makers Services
     </div>
     <v-divider class="mx-16 mb-10"></v-divider>
-    <v-row justify="center" dense class="mb-10">
+    <v-row justify="center" no-gutters class="mb-10">
       <v-col cols="3" class="mx-7">
         <v-hover v-slot="{ hover }">
           <v-card
@@ -161,64 +161,174 @@
         </v-hover>
       </v-col>
     </v-row>
-    <v-card tile color="primary" height="700">
+    <v-card tile color="primary" height="1000" flat class="mb-10">
       <v-card-title
         class="justify-center text-h2 font-weight-medium white--text"
       >
         Makers Projects
       </v-card-title>
       <v-divider class="mx-16 mb-10"></v-divider>
-      <v-card-actions>
-        <v-row class="justify-center">
-          <v-col cols="4">
-            <div class="d-flex justify-center">
-              <img
-                src="team_pic_1.png"
-                class="rounded-xl"
-                style="opacity: 0.5; object-fit: cover"
-                height="300"
-                width="400"
-              />
-            </div>
-          </v-col>
-          <v-col cols="3">
-            <v-carousel hide-delimiters height="300">
-              <v-carousel-item>
-                <div class="d-flex justify-center">
-                  <img
+      <v-row class="justify-center" no-gutters>
+        <v-col cols="4" align-self="center">
+          <div class="d-flex justify-center">
+            <v-img
+              src="team_pic_1.png"
+              class="rounded-xl"
+              style="opacity: 0.5"
+              height="200"
+              max-width="300"
+            >
+            </v-img>
+          </div>
+        </v-col>
+        <v-spacer></v-spacer>
+        <v-col cols="3">
+          <v-carousel hide-delimiters height="300">
+            <v-carousel-item>
+              <v-sheet height="100%" color="transparent">
+                <v-row class="fill-height" align="center" justify="center">
+                  <v-img
                     src="team_pic_1.png"
+                    max-width="420"
+                    height="270"
                     class="rounded-xl"
-                    height="300"
-                    width="400"
-                  />
-                </div>
-              </v-carousel-item>
-              <v-carousel-item>
-                <div class="d-flex justify-center">
-                  <img
-                    src="team_pic_1.png"
-                    class="rounded-xl"
-                    height="300"
-                    width="400"
-                  />
-                </div>
-              </v-carousel-item>
-            </v-carousel>
-          </v-col>
-          <v-col cols="4">
-            <div class="d-flex justify-center">
-              <img
-                src="team_pic_1.png"
-                class="rounded-xl"
-                style="opacity: 0.5"
-                height="300"
-                width="400"
-              />
-            </div>
-          </v-col>
-        </v-row>
-      </v-card-actions>
+                  ></v-img>
+                </v-row>
+              </v-sheet>
+            </v-carousel-item>
+          </v-carousel>
+          <v-row justify="center" class="pa-5">
+            <v-col class="text-center">
+              <div class="text-h3 font-weight-light mb-10">LGS</div>
+              <div class="white--text text-subtitle-1 text-justify">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo consequat.
+              </div>
+              <v-divider class="my-5"></v-divider>
+              <v-btn rounded color="secondary" elevation="10">
+                Learn More
+              </v-btn>
+            </v-col>
+          </v-row>
+        </v-col>
+        <v-spacer></v-spacer>
+        <v-col cols="4" align-self="center">
+          <div class="d-flex justify-center">
+            <v-img
+              src="team_pic_1.png"
+              class="rounded-xl"
+              style="opacity: 0.5"
+              height="200"
+              max-width="300"
+            >
+            </v-img>
+          </div>
+        </v-col>
+      </v-row>
     </v-card>
+    <div class="text-center text-h2 font-weight-medium primary--text mb-10">
+      Makers experiences
+    </div>
+    <v-divider class="mx-16 mb-16"></v-divider>
+    <v-row justify="center" no-gutters class="mb-10">
+      <v-col cols="3" class="mx-10 py-10">
+        <v-card height="400" flat>
+          <v-avatar size="128" color="secondary" class="mb-10">
+            <img src="https://cdn.vuetifyjs.com/images/john.jpg" />
+          </v-avatar>
+          <v-spacer></v-spacer>
+          <div class="text-h3 mb-5">Robotics</div>
+          <div class="text-subtitle-1 font-weight-light text-justify">
+            Robotics is an interdisciplinary field that integrates computer
+            science and engineering. Robotics involves design, construction,
+            operation, and use of robots. The goal of robotics is to design
+            machines that can help and assist humans
+          </div>
+        </v-card>
+      </v-col>
+      <v-col cols="3" class="mx-10 py-10">
+        <v-card height="400" flat>
+          <v-avatar size="128" color="secondary" class="mb-10">
+            <img src="https://cdn.vuetifyjs.com/images/john.jpg" />
+          </v-avatar>
+          <v-spacer></v-spacer>
+          <div class="text-h3 mb-5">Robotics</div>
+          <div class="text-subtitle-1 font-weight-light text-justify">
+            Robotics is an interdisciplinary field that integrates computer
+            science and engineering. Robotics involves design, construction,
+            operation, and use of robots. The goal of robotics is to design
+            machines that can help and assist humans
+          </div>
+        </v-card>
+      </v-col>
+      <v-col cols="3" class="mx-10 py-10">
+        <v-card height="400" flat>
+          <v-avatar size="128" color="secondary" class="mb-10">
+            <img src="https://cdn.vuetifyjs.com/images/john.jpg" />
+          </v-avatar>
+          <v-spacer></v-spacer>
+          <div class="text-h3 mb-5">Robotics</div>
+          <div class="text-subtitle-1 font-weight-light text-justify">
+            Robotics is an interdisciplinary field that integrates computer
+            science and engineering. Robotics involves design, construction,
+            operation, and use of robots. The goal of robotics is to design
+            machines that can help and assist humans
+          </div>
+        </v-card>
+      </v-col>
+      <v-col cols="3" class="mx-10 py-10">
+        <v-card height="400" flat>
+          <v-avatar size="128" color="secondary" class="mb-10">
+            <img src="https://cdn.vuetifyjs.com/images/john.jpg" />
+          </v-avatar>
+          <v-spacer></v-spacer>
+          <div class="text-h3 mb-5">Robotics</div>
+          <div class="text-subtitle-1 font-weight-light text-justify">
+            Robotics is an interdisciplinary field that integrates computer
+            science and engineering. Robotics involves design, construction,
+            operation, and use of robots. The goal of robotics is to design
+            machines that can help and assist humans
+          </div>
+        </v-card>
+      </v-col>
+      <v-col cols="3" class="mx-10 py-10">
+        <v-card height="400" flat>
+          <v-avatar size="128" color="secondary" class="mb-10">
+            <img src="https://cdn.vuetifyjs.com/images/john.jpg" />
+          </v-avatar>
+          <v-spacer></v-spacer>
+          <div class="text-h3 mb-5">Robotics</div>
+          <div class="text-subtitle-1 font-weight-light text-justify">
+            Robotics is an interdisciplinary field that integrates computer
+            science and engineering. Robotics involves design, construction,
+            operation, and use of robots. The goal of robotics is to design
+            machines that can help and assist humans
+          </div>
+        </v-card>
+      </v-col>
+      <v-col cols="3" class="mx-10 py-10">
+        <v-card height="400" flat>
+          <v-avatar size="128" color="secondary" class="mb-10">
+            <img src="https://cdn.vuetifyjs.com/images/john.jpg" />
+          </v-avatar>
+          <v-spacer></v-spacer>
+          <div class="text-h3 mb-5">Robotics</div>
+          <div class="text-subtitle-1 font-weight-light text-justify">
+            Robotics is an interdisciplinary field that integrates computer
+            science and engineering. Robotics involves design, construction,
+            operation, and use of robots. The goal of robotics is to design
+            machines that can help and assist humans
+          </div>
+        </v-card>
+      </v-col>
+    </v-row>
+    <div class="text-center text-h2 font-weight-medium primary--text mb-10">
+      Feedbacks
+    </div>
+    <v-divider class="mx-16 mb-16"></v-divider>
   </div>
 </template>
 
