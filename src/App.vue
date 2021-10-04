@@ -21,6 +21,94 @@
     <v-main>
       <router-view></router-view>
     </v-main>
+
+    <v-footer padless color="secondary" height="400">
+      <v-row align="center" justify="start" class="fill-height">
+        <v-col cols="4">
+          <div class="d-flex justify-center mb-10">
+            <v-img src="word_logo.png" max-height="80" max-width="250"></v-img>
+          </div>
+          <div class="d-flex justify-center">
+            <div
+              class="primary mx-2"
+              style="
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                display: inline-block;
+              "
+            ></div>
+            <div
+              class="primary mx-3"
+              style="
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                opacity: 0.7;
+                display: inline-block;
+              "
+            ></div>
+            <div
+              class="primary mx-2"
+              style="
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                opacity: 0.5;
+                display: inline-block;
+              "
+            ></div>
+          </div>
+        </v-col>
+        <v-col cols="2">
+          <div class="text-h4 white--text mb-6">Sample Menu</div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            Sample Menu
+          </div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            Sample Menu
+          </div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            Sample Menu
+          </div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            Sample Menu
+          </div>
+        </v-col>
+        <v-col cols="2">
+          <div class="text-h4 white--text mb-6">Sample Menu</div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            Sample Menu
+          </div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            Sample Menu
+          </div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            Sample Menu
+          </div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            Sample Menu
+          </div>
+        </v-col>
+        <v-col cols="3">
+          <div class="text-h4 white--text mb-6">Our Company</div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            <v-icon left color="primary"> mdi-home </v-icon>tincidunt ut laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation
+          </div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            <v-icon left color="primary"> mdi-email </v-icon>test@gmail.com
+          </div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            <v-icon left color="primary"> mdi-phone </v-icon>+962 079 555 1887
+          </div>
+          <div class="subtitle-1 white--text mb-3 font-weight-light">
+            All the Love ! ❤️
+          </div>
+        </v-col>
+      </v-row>
+    </v-footer>
   </v-app>
 </template>
 
