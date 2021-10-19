@@ -337,8 +337,6 @@
       hide-delimiters
     >
       <v-carousel-item
-        reverse-transition="fade-transition"
-        transition="fade-transition"
       >
         <v-sheet color="white" height="100%">
           <v-row class="fill-height" align="center" justify="center">
@@ -351,7 +349,7 @@
               </v-avatar>
               <v-avatar size="400" class="mx-5">
                 <v-img
-                  src="https://media-exp1.licdn.com/dms/image/C4D03AQGoTdFxO5tO_g/profile-displayphoto-shrink_800_800/0/1625912414878?e=1639008000&v=beta&t=acpzowt7Y4cvidd-o3o05ED_vSo8xGZXuNscnLtmVOE"
+                src="https://media-exp1.licdn.com/dms/image/C4D03AQFjHS8is2XjIA/profile-displayphoto-shrink_800_800/0/1633443731250?e=1640217600&v=beta&t=QSBdeUh2M9BmmYcBUyUXlHdUEkPHeLkTrs0yEpHQ4S4"
                 >
                 </v-img>
               </v-avatar>
@@ -381,8 +379,7 @@
         </v-sheet>
       </v-carousel-item>
       <v-carousel-item
-        reverse-transition="fade-transition"
-        transition="fade-transition"
+       
       >
         <v-sheet color="white" height="100%">
           <v-row class="fill-height" align="center" justify="center">

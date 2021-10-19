@@ -2,11 +2,13 @@
   <v-app>
     <v-navigation-drawer color="primary" v-model="drawer" app>
     </v-navigation-drawer>
-    <v-app-bar app color="secondary" dark src="app_bar.png">
+    <v-app-bar app color="secondary" dark src="app_bar.png" tile flat>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <img src="word_logo.png" alt="makers-logo" height="60" class="mx-8" />
+      <router-link to="/">
+        <img src="word_logo.png" alt="makers-logo" height="60" class="mx-8" />
+      </router-link>
       <v-spacer></v-spacer>
-      <v-btn text tile x-large> About Us </v-btn>
+      <v-btn text tile x-large to="/about"> About Us </v-btn>
       <v-divider vertical inset></v-divider>
       <v-btn text tile x-large style="text-transform: none"> Portfolio </v-btn>
       <v-divider vertical inset></v-divider>
@@ -16,7 +18,7 @@
       <v-btn text tile x-large style="text-transform: none"> Gallery </v-btn>
       <v-divider vertical inset></v-divider>
 
-      <v-btn text tile x-large style="text-transform: none"> Contact Us </v-btn>
+      <v-btn text tile x-large style="text-transform: none" to="/contact"> Contact Us </v-btn>
     </v-app-bar>
     <v-main>
       <router-view></router-view>
