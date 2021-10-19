@@ -2,28 +2,27 @@
   <v-app>
     <v-navigation-drawer color="primary" v-model="drawer" app>
     </v-navigation-drawer>
-    <v-app-bar app color="secondary" dark src="app_bar.png">
+    <v-app-bar app color="secondary" dark src="app_bar.png" flat hide-on-scroll>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <img src="word_logo.png" alt="makers-logo" height="60" class="mx-8" />
       <v-spacer></v-spacer>
       <v-btn text tile x-large> About Us </v-btn>
       <v-divider vertical inset></v-divider>
-      <v-btn text tile x-large style="text-transform: none"> Portfolio </v-btn>
+      <v-btn text tile x-large> Portfolio </v-btn>
       <v-divider vertical inset></v-divider>
-      <v-btn text tile x-large style="text-transform: none"> Courses </v-btn>
-      <v-divider vertical inset></v-divider>
-
-      <v-btn text tile x-large style="text-transform: none"> Gallery </v-btn>
+      <v-btn text tile x-large> Courses </v-btn>
       <v-divider vertical inset></v-divider>
 
-      <v-btn text tile x-large style="text-transform: none"> Contact Us </v-btn>
+      <v-btn text tile x-large> Gallery </v-btn>
+      <v-divider vertical inset></v-divider>
+
+      <v-btn text tile x-large> Contact Us </v-btn>
     </v-app-bar>
     <v-main>
       <router-view></router-view>
     </v-main>
-
-    <v-footer padless color="secondary" height="400">
-      <v-row align="center" justify="start" class="fill-height">
+    <v-footer padless color="secondary" height="350" class="pt-16">
+      <v-row justify="start" class="fill-height">
         <v-col cols="4">
           <div class="d-flex justify-center mb-10">
             <v-img src="word_logo.png" max-height="80" max-width="250"></v-img>

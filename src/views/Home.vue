@@ -334,6 +334,7 @@
       progress
       cycle
       hide-delimiter-background
+      :show-arrows="false"
       hide-delimiters
     >
       <v-carousel-item
@@ -343,28 +344,32 @@
         <v-sheet color="white" height="100%">
           <v-row class="fill-height" align="center" justify="center">
             <v-col cols="5">
-              <v-avatar size="100" style="opacity: 0.6">
-                <v-img
-                  src="https://media-exp1.licdn.com/dms/image/C4D03AQG-1fS10PCYAQ/profile-displayphoto-shrink_800_800/0/1631740790908?e=1639008000&v=beta&t=gqpxMH1v4Wurv-zcWLMQXo2sKGQLY4P3f3liFtO6pBI"
-                >
-                </v-img>
-              </v-avatar>
+              <v-btn width="100" height="100" class="rounded-circle">
+                <v-avatar size="100" style="opacity: 0.6">
+                  <v-img
+                    src="https://media-exp1.licdn.com/dms/image/C4D03AQG-1fS10PCYAQ/profile-displayphoto-shrink_800_800/0/1631740790908?e=1639008000&v=beta&t=gqpxMH1v4Wurv-zcWLMQXo2sKGQLY4P3f3liFtO6pBI"
+                  >
+                  </v-img>
+                </v-avatar>
+              </v-btn>
               <v-avatar size="400" class="mx-5">
                 <v-img
                   src="https://media-exp1.licdn.com/dms/image/C4D03AQGoTdFxO5tO_g/profile-displayphoto-shrink_800_800/0/1625912414878?e=1639008000&v=beta&t=acpzowt7Y4cvidd-o3o05ED_vSo8xGZXuNscnLtmVOE"
                 >
                 </v-img>
               </v-avatar>
-              <v-avatar size="100" style="opacity: 0.6">
-                <v-img
-                  src="https://media-exp1.licdn.com/dms/image/C4D03AQFdPLq3P3vzdQ/profile-displayphoto-shrink_800_800/0/1630102880162?e=1639008000&v=beta&t=s2NLvAoufhQiR7VKIKOsNfMAb9FblQebR1qLjYFcWlI"
-                >
-                </v-img>
-              </v-avatar>
+              <v-btn width="100" height="100" class="rounded-circle">
+                <v-avatar size="100" style="opacity: 0.6">
+                  <v-img
+                    src="https://media-exp1.licdn.com/dms/image/C4D03AQFdPLq3P3vzdQ/profile-displayphoto-shrink_800_800/0/1630102880162?e=1639008000&v=beta&t=s2NLvAoufhQiR7VKIKOsNfMAb9FblQebR1qLjYFcWlI"
+                  >
+                  </v-img>
+                </v-avatar>
+              </v-btn>
             </v-col>
             <v-col cols="5">
-              <div class="text-h1 mb-3 font-weight-bold">Raad Kloob</div>
-              <div class="text-h4 mb-16">Graphic Designer</div>
+              <div class="text-h2 mb-3 font-weight-bold">Raad Kloob</div>
+              <div class="text-h4 mb-16">Suits, Lead Actor</div>
               <div class="text-subtitle-1 font-weight-light text-justify">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
@@ -387,28 +392,80 @@
         <v-sheet color="white" height="100%">
           <v-row class="fill-height" align="center" justify="center">
             <v-col cols="5">
-              <v-avatar size="100" style="opacity: 0.6">
-                <v-img
-                  src="https://media-exp1.licdn.com/dms/image/C4D03AQGoTdFxO5tO_g/profile-displayphoto-shrink_800_800/0/1625912414878?e=1639008000&v=beta&t=acpzowt7Y4cvidd-o3o05ED_vSo8xGZXuNscnLtmVOE"
-                >
-                </v-img>
-              </v-avatar>
+              <v-btn width="100" height="100" class="rounded-circle">
+                <v-avatar size="100" style="opacity: 0.6">
+                  <v-img
+                    src="https://media-exp1.licdn.com/dms/image/C4D03AQGoTdFxO5tO_g/profile-displayphoto-shrink_800_800/0/1625912414878?e=1639008000&v=beta&t=acpzowt7Y4cvidd-o3o05ED_vSo8xGZXuNscnLtmVOE"
+                  >
+                  </v-img>
+                </v-avatar>
+              </v-btn>
               <v-avatar size="400" class="mx-5">
                 <v-img
                   src="https://media-exp1.licdn.com/dms/image/C4D03AQFdPLq3P3vzdQ/profile-displayphoto-shrink_800_800/0/1630102880162?e=1639008000&v=beta&t=s2NLvAoufhQiR7VKIKOsNfMAb9FblQebR1qLjYFcWlI"
                 >
                 </v-img>
               </v-avatar>
-              <v-avatar size="100" style="opacity: 0.6">
+              <v-btn width="100" height="100" class="rounded-circle">
+                <v-avatar size="100" style="opacity: 0.6">
+                  <v-img
+                    src="https://media-exp1.licdn.com/dms/image/C4D03AQG-1fS10PCYAQ/profile-displayphoto-shrink_800_800/0/1631740790908?e=1639008000&v=beta&t=gqpxMH1v4Wurv-zcWLMQXo2sKGQLY4P3f3liFtO6pBI"
+                  >
+                  </v-img>
+                </v-avatar>
+              </v-btn>
+            </v-col>
+            <v-col cols="5">
+              <div class="text-h2 mb-3 font-weight-bold">Ali Bustami</div>
+              <div class="text-h4 mb-16">CEO At Facebook, Inc.</div>
+              <div class="text-subtitle-1 font-weight-light text-justify">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+                in hendrerit in vulputate velit esse molestie consequat, vel
+                illum dolore eu feugiat nulla facilisis at vero eros et accumsan
+                et iusto odio dignissim qui blandit praesent luptatum zzril
+                delenit augue duis dolore te feugait nulla facilisi.
+              </div>
+            </v-col>
+          </v-row>
+        </v-sheet>
+      </v-carousel-item>
+      <v-carousel-item
+        reverse-transition="fade-transition"
+        transition="fade-transition"
+      >
+        <v-sheet color="white" height="100%">
+          <v-row class="fill-height" align="center" justify="center">
+            <v-col cols="5">
+              <v-btn width="100" height="100" class="rounded-circle">
+                <v-avatar size="100" style="opacity: 0.6">
+                  <v-img
+                    src="https://media-exp1.licdn.com/dms/image/C4D03AQFdPLq3P3vzdQ/profile-displayphoto-shrink_800_800/0/1630102880162?e=1639008000&v=beta&t=s2NLvAoufhQiR7VKIKOsNfMAb9FblQebR1qLjYFcWlI"
+                  >
+                  </v-img>
+                </v-avatar>
+              </v-btn>
+              <v-avatar size="400" class="mx-5">
                 <v-img
                   src="https://media-exp1.licdn.com/dms/image/C4D03AQG-1fS10PCYAQ/profile-displayphoto-shrink_800_800/0/1631740790908?e=1639008000&v=beta&t=gqpxMH1v4Wurv-zcWLMQXo2sKGQLY4P3f3liFtO6pBI"
                 >
                 </v-img>
               </v-avatar>
+              <v-btn width="100" height="100" class="rounded-circle">
+                <v-avatar size="100" style="opacity: 0.6">
+                  <v-img
+                    src="https://media-exp1.licdn.com/dms/image/C4D03AQGoTdFxO5tO_g/profile-displayphoto-shrink_800_800/0/1625912414878?e=1639008000&v=beta&t=acpzowt7Y4cvidd-o3o05ED_vSo8xGZXuNscnLtmVOE"
+                  >
+                  </v-img>
+                </v-avatar>
+              </v-btn>
             </v-col>
             <v-col cols="5">
-              <div class="text-h1 mb-3 font-weight-bold">Ali Albustami</div>
-              <div class="text-h4 mb-16">Team Leader</div>
+              <div class="text-h2 mb-3 font-weight-bold">Mohammad Hamad</div>
+              <div class="text-h4 mb-16">Fantastic Liar</div>
               <div class="text-subtitle-1 font-weight-light text-justify">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
